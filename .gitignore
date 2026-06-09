@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.eggs/
+pip-wheel-metadata/
+build/
+dist/
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+# Comment out the next line if you want to track notebooks
+# *.ipynb
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy / linters
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Logs and runtime files
+*.log
+logs/
+debug/
+tmp/
+temp/
+
+# Machine learning artifacts / large binaries
+# Comment or adjust patterns if you want to keep these under version control
+models/
+checkpoints/
+weights/
+saved_models/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.model
+
+# Data (CSV, images, parquet, etc.)
+# Uncomment any lines below to ignore large datasets
+# data/
+# datasets/
+# *.csv
+# *.tsv
+# *.parquet
+# *.npz
+# *.npy
+# *.tar.gz
+
+# TensorBoard / training runs
+runs/
+tensorboard/
+events.out.tfevents.*
+
+# Packaging
+*.egg
+*.whl
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
