@@ -74,6 +74,7 @@ saved_models/
 # *.npz
 # *.npy
 # *.tar.gz
+*.mp4
 
 # TensorBoard / training runs
 runs/
