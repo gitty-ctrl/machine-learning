@@ -47,6 +47,7 @@ logs/
 debug/
 tmp/
 temp/
+*.task
 
 # Machine learning artifacts / large binaries
 # Comment or adjust patterns if you want to keep these under version control
